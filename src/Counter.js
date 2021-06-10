@@ -4,7 +4,7 @@ function Counter() {
   
   const [count, setCount] = useState(0);
   const [stock, setStock] = useState(4);
-  const [carrito, setCarrito] = useState(0);
+  
   
   const [state, setState] = useState({
   	count: 0,
