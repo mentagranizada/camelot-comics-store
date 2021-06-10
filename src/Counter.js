@@ -5,14 +5,8 @@ function Counter() {
   const [count, setCount] = useState(0);
   const [stock, setStock] = useState(4);
   
-  
-  const [state, setState] = useState({
-  	count: 0,
-  	stock: 4,
-  	carrito: 0
-    });
-    
-  
+
+ 
   return (
     <div className="Counter">
      
